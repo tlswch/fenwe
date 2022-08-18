@@ -50,7 +50,7 @@
 	"dtFromName": "//div[@class='btn-group']/label[1]/text()",
 
 	"dtUrlNode": "//table[@id='cili']/tbody",
-	"dtUrlSubNode": "/tr[not(contains(@id,'字幕'))]/td/a",
+	"dtUrlSubNode": "/tr[1]/td/a",
 	"dtUrlId": "@href",
 	"dtUrlIdR": "",
 	"dtUrlName": "concat(//span/span[1]/text(),'--', //span[@class='label label-warning']/text())",
