@@ -350,6 +350,8 @@ CCTV15,http://39.134.115.163:8080/PLTV/88888910/224/3221225641/index.m3u8?icpid=
 CCTV15,http://61.160.152.2/live.aishang.ctlcdn.com/00000110240329_1/playlist.m3u8?CONTENTID=00000110240329_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx
 CCTV15,http://39.135.138.58:18890/PLTV/88888910/224/3221225641/index.m3u8
 CCTV15,http://39.135.138.60:18890/PLTV/88888910/224/3221225641/index.m3u8
+CCTV16,http://livepull.sxiptv.cn/live/CCTV16.flv?txSecret=8c430bddc7d92ccd24b22f024d19d523&txTime=63b05c7f
+CCTV16,rtmp://livepull.sxiptv.cn/live/CCTV16?txSecret=8c430bddc7d92ccd24b22f024d19d523&txTime=63b05c7f
 CCTV16,http://117.148.179.157/PLTV/88888888/224/3221233403/index.m3u8
 CCTV16,http://39.134.66.4/PLTV/88888888/224/3221225893/index.m3u8
 CCTV16,http://39.135.55.72:6610/PLTV/88888888/224/3221227148/index.m3u8?servicetype=1&IASHttpSessionId=OTT
@@ -386,11 +388,16 @@ CETV-3,http://117.148.179.136/PLTV/88888888/224/3221231543/index.m3u8
 CETV-4,http://111.63.117.13:6060/030000001000/G_CETV-4/G_CETV-4.m3u8
 
 💥陕西,#genre#
+陕西卫视,http://livepull.sxiptv.cn/live/shanxiweishihd.flv?txSecret=71ace701099e692ac170bf12404a79e1&txTime=63b05c7f
 陕西卫视,http://39.134.66.66/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225567/index.m3u8
 陕西卫视,http://183.207.248.71:80/cntv/live1/n-shanxi1stv/n-shanxi1stv
 陕西卫视,http://39.134.118.77/live.gq.miguvideo.com:8080/envivo_w/2018/SD/shan3xi/1000/index.m3u8?&encrypt=1
+陕西1,rtmp://livepull.sxiptv.cn/live/shanxi1taohd?txSecret=3c942a31cc3264f28be12e1927330f34&txTime=63b05c7f
+陕西1,http://livepull.sxiptv.cn/live/shanxi1taohd.flv?txSecret=3c942a31cc3264f28be12e1927330f34&txTime=63b05c7f
 陕西1,http://111.20.33.93/zycfcdn.gdwlcloud.com/PLTV/88888893/224/3221226357/index.m3u8
 陕西1,http://livepull.sxiptv.cn/live/shanxi1.m3u8
+陕西2,http://livepull.sxiptv.cn/live/shanxi2taohd.flv?txSecret=a4471a8e7e01f64800f228c8d3f7a76b&txTime=63b05c7f
+陕西2,rtmp://livepull.sxiptv.cn/live/shanxi2taohd?txSecret=a4471a8e7e01f64800f228c8d3f7a76b&txTime=63b05c7f
 陕西2,http://111.20.33.93/zycfcdn.gdwlcloud.com/PLTV/88888893/224/3221226358/index.m3u8
 陕西2,http://livepull.sxiptv.cn/live/shanxi2.m3u8
 陕西3,http://111.20.33.93/zycfcdn.gdwlcloud.com/PLTV/88888893/224/3221226359/index.m3u8
@@ -401,6 +408,8 @@ CETV-4,http://111.63.117.13:6060/030000001000/G_CETV-4/G_CETV-4.m3u8
 陕西5,http://livepull.sxiptv.cn/live/shanxi5.m3u8
 陕西6,http://111.20.33.93/zycfcdn.gdwlcloud.com/PLTV/88888893/224/3221226362/index.m3u8
 陕西6,http://livepull.sxiptv.cn/live/shanxi6.m3u8
+陕西7,http://livepull.sxiptv.cn/live/shanxi7taohd.flv?txSecret=f3fe895baf718f2ab6e3a88793b2de44&txTime=63b05c7f
+陕西7,rtmp://livepull.sxiptv.cn/live/shanxi7taohd?txSecret=f3fe895baf718f2ab6e3a88793b2de44&txTime=63b05c7f
 陕西7,http://111.20.33.93/zycfcdn.gdwlcloud.com/PLTV/88888893/224/3221226363/index.m3u8
 陕西7,http://livepull.sxiptv.cn/live/shanxi7.m3u8
 陕西8,http://111.20.33.93/zycfcdn.gdwlcloud.com/PLTV/88888893/224/3221226364/index.m3u8
