@@ -61,7 +61,7 @@
 {"key":"csp_美剧虫", "name":"美剧虫(XPF)", "type":3, "api":"csp_XPathMacFilter", "searchable":1, "quickSearch":1, "filterable":1, "ext":"https://agit.ai/fenwe/TVBox/raw/branch/master/MaooXP/meijuchong.json"},
 {"key":"csp_xpath_蚂蚁影视","name":"蚂蚁影视(XPF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://agit.ai/fenwe/TVBox/raw/branch/master/MaooXP/mayi.json"},
 
-{"key":"csp_biubiu_voflix","name":"🥒voflix(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/MaooXB2/voflix.json"},
+{"key":"csp_biubiu_voflix","name":"🥒voflix(XB)","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/MaooXB2/voflix.json"},
 {"key":"csp_biubiu_剧荒","name":"🥒剧荒(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/MaooXB2/剧荒.json","jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/XBiubiu.jar"},
 {"key":"csp_biubiu_夜空蓝光","name":"🥒夜空蓝光(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/MaooXB2/夜空蓝光.json","jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/XBiubiu.jar"},
 {"key":"csp_biubiu_JustLive网易","name":"🥒JustLive网易(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/MaooXB2/JustLive网易.json","jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/XBiubiu.jar"},
