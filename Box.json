@@ -17,7 +17,7 @@
 {"key": "Nfyun","name": "Nf云","type": 3,"api": "csp_Nfyun","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "9E03","name": "9E03","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://vod.9e03.com/lvdou_api.php/v1.vod","jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/9e03.jar"},
 {"key": "Kuaikan","name": "快看","type": 3,"api": "csp_Kuaikan","searchable": 1,"quickSearch": 1,"filterable": 1},
-{"key":"Ekan_spider","name":"Ekan","api":"csp_Ekan","type":3,"filterable":1,"quickSearch":1,"searchable":1},
+{"key":"爱看","name":"爱看","api":"csp_IKan","type":3,"filterable":1,"quickSearch":1,"searchable":1},
 {"key":"3EDY","name":"3EDY(EXO)","type":3,"api":"csp_EEEDY","searchable":1,"quickSearch":1,"filterable":1},
 {"key": "zxzj","name": "在线之家","type": 3,"api": "csp_Zxzj","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key":"KanSJ_spider","name":"看视界","api":"csp_KanSJ","type":3,"filterable":1,"quickSearch":1,"searchable":1,"ext":""},
