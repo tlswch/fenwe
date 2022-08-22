@@ -36,7 +36,7 @@
 {"key": "剧荒TV","name": "剧荒TV","type": 3,"api": "csp_Juhuang","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key":"csp_Dy555","name":"555","type":3,"api":"csp_Dy555","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"Subaibai","name":"素白白","type": 3,"api": "csp_Subaibai","searchable": 1,"quickSearch": 1,"filterable": 1},
-{"key":"csp_Anime1","name":"Anime","type":3,"api":"csp_Anime1","searchable":1,"quickSearch":1,"filterable":1｝
+{"key":"csp_Anime1","name":"Anime","type":3,"api":"csp_Anime1","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"Zhaozy","name":"找资源","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":1,"ext":"3a49cf29cf20410997247c6eb4509be9"},
 {"key": "AliPS","name": "盘搜","type": 3,"api": "csp_AliPS","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "3a49cf29cf20410997247c6eb4509be9"},
 {"key": "csp_Gitcafe","name": "小纸条","type":3,"api":"csp_Gitcafe","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "3a49cf29cf20410997247c6eb4509be9"},
