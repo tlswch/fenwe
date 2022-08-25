@@ -72,7 +72,7 @@
 {"key":"csp_xpath_喵乐","name":"喵乐(XPF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://agit.ai/fenwe/TVBox/raw/branch/master/MaooXP/喵乐.json"},
 {"key":"csp_美剧虫", "name":"美剧虫(XPF)", "type":3, "api":"csp_XPathMacFilter", "searchable":1, "quickSearch":1, "filterable":1, "ext":"https://agit.ai/fenwe/TVBox/raw/branch/master/MaooXP/meijuchong.json"},
 {"key":"csp_xpath_蚂蚁影视","name":"蚂蚁影视(XPF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://agit.ai/fenwe/TVBox/raw/branch/master/MaooXP/mayi.json"},
-{"key":"t4test","name":"T4测试","type":4,"api":"http://155.248.168.72:8080/vod?sites=all","searchable":1,"quickSearch":1,"filterable":0},
+{"key":"t4test","name":"T4测试","type":4,"api":"http://155.94.146.213:8010/vod?sites=all","searchable":1,"quickSearch":1,"filterable":0},
 {"key": "注视","name": "注视(T4)","type": 4,"api": "https://t4.catvod.eu.org/catvod/gaze","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "泥巴","name": "泥巴(T4)","type": 4,"api": "https://t4.catvod.eu.org/catvod/nbys","searchable": 1,"quickSearch": 1,"filterable": 1},
 
