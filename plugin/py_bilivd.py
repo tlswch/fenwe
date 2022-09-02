@@ -49,7 +49,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 		return result
 	cookies = ''
 	def getCookie(self):
-		cookies_str ="" #填入大会员Cookies
+		cookies_str ="CURRENT_FNVAL=4048; buvid3=08C842FA-A150-2969-C730-3AB8D6523A8D32523infoc; rpdid=|(JY)J~ukkkk0J'uYlJYllJJR; CURRENT_BLACKGAP=0; blackside_state=0; sid=87yqqygc; innersign=0; i-wanna-go-back=-1; fingerprint=e4bfcb5fe4ce5693c744f8a5294c4501; buvid_fp=08C842FA-A150-2969-C730-3AB8D6523A8D32523infoc; buvid_fp_plain=undefined; _jct=c63db990fe9c11ecab088acda368e806; DedeUserID=454318234; DedeUserID__ckMd5=df1eb9df81545b79; SESSDATA=529f3b0e%2C1672823016%2Cc1568*71; bili_jct=7648a6f663b0953663bd58ae51e71dc1; b_ut=5" #填入大会员Cookies
 		cookies_dic = dict([co.strip().split('=') for co in cookies_str.split(';')])
 		rsp = session()
 		cookies_jar = utils.cookiejar_from_dict(cookies_dic)
