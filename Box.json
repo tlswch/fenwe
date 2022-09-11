@@ -76,6 +76,8 @@
 {"key":"t4test","name":"T4测试","type":4,"api":"http://155.94.146.213:8080/vod?sites=all&ali_token=4acb3ad2f2254ba1b566279f7cd98ba3&timeout=10","searchable":1,"quickSearch":1,"filterable":0},
 {"key":"push_agent","name": "推送","type": 3,"api": "csp_PushAgent","searchable": 0,"quickSearch": 0,"filterable": 0,"ext":"4acb3ad2f2254ba1b566279f7cd98ba3"},
 
+{"key": "py_gitcafe","name": "小纸条(pyramid)","type": 3,"api": "py_gitcafe","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_gitcafe.py"}, 
+{"key": "py_yiso","name": "易搜(pyramid)","type": 3,"api": "py_yiso","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_yiso.py"}, 
 {"key": "py_zhaozy","name": "找资源(pyramid)","type": 3,"api": "py_zhaozy","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_zhaozy.py"}, 
 {"key": "py_pansou","name": "盘搜(pyramid)","type": 3,"api": "py_pansou","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_pansou.py"}, 
 {"key": "push_agent","name": "阿里(pyramid)","type": 3,"api": "py_ali","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_ali.py"}, 
