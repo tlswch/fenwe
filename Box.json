@@ -80,6 +80,7 @@
 {"key": "py_zhaozy","name": "找资源(pyramid)","type": 3,"api": "py_zhaozy","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_zhaozy.py"}, 
 {"key": "py_pansou","name": "盘搜(pyramid)","type": 3,"api": "py_pansou","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_pansou.py"}, 
 {"key": "push_agent","name": "阿里(pyramid)","type": 3,"api": "py_ali","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_ali.py"}, 
+{"key": "py_alist","name": "Alist(pyramid)","type": 3,"api": "py_alist","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_alist.py"}, 
 {"key": "py_cctv","name": "央视(pyramid)","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_cctv.py"}, 
 {"key": "py_czspp","name": "厂长(pyramid)","type": 3,"api": "py_czspp","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_czspp.py"}, 
 {"key": "py_zxzj","name": "在线之家(pyramid)","type": 3,"api": "py_zxzj","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_zxzj.py"}, 
