@@ -97,16 +97,7 @@
 {"key": "py_3qu","name": "3QU(pyramid)","type": 3,"api": "py_3qu","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_3qu.py"},
 {"key": "py_cyys","name": "创艺(pyramid)","type": 3,"api": "py_cyys","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_cyys.py"},
 {"key": "py_wmkk","name": "完美看看(pyramid)","type": 3,"api": "py_wmkk","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_wmkk.py"},
-{
-   "key": "py_voflix",
-   "name": "py_voflix(Pyramid)",
-   "type": 3,
-   "api": "py_voflix",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 0,
-   "ext": "http://192.168.13.13:5705/txt/py/py_voflix.py"
-  },
+
 {"key": "dr_夜空","name": "夜空(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=夜空","searchable": 2,"quickSearch": 0,"filterable": 0},
 {"key": "dr_360影视","name": "360影视(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=360影视","searchable": 2,"quickSearch": 0,"filterable": 0},
 {"key": "dr_追剧喵","name": "追剧喵(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=追剧喵","searchable": 2,"quickSearch": 0,"filterable": 0},
