@@ -125,8 +125,10 @@
 {"key": "dr_l0l","name": "l0l(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=l0l","searchable": 2,"quickSearch": 0,"filterable": 0},
 {"key": "dr_鸭奈飞","name": "鸭奈飞(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=鸭奈飞","searchable": 2,"quickSearch": 0,"filterable": 0},
 {"key": "dr_LIBVIO","name": "LIBVIO(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=LIBVIO","searchable": 2,"quickSearch": 0,"filterable": 0},
+{"key": "dr_1080P","name": "1080P(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=1080P","searchable": 2,"quickSearch": 0,"filterable": 0},
 {"key": "dr_drpy","name": "drpy(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=drpy","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "dr_番茄影视","name": "番茄影视(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=番茄影视","searchable": 2,"quickSearch": 0,"filterable": 0},
+{"key": "dr_玄天","name": "玄天(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=玄天","searchable": 2,"quickSearch": 0,"filterable": 0},
 {"key": "dr_菜狗","name": "菜狗(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=菜狗","searchable": 2,"quickSearch": 0,"filterable": 1},
 {"key": "dr_人人影视","name": "人人影视(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=人人影视","searchable": 2,"quickSearch": 0,"filterable": 0},
 {"key": "dr_007影视","name": "007影视(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=007影视","searchable": 2,"quickSearch": 0,"filterable": 0},
@@ -134,6 +136,7 @@
 {"key": "dr_大米星球","name": "大米星球(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=大米星球","searchable": 2,"quickSearch": 0,"filterable": 0},
 {"key": "dr_奇优影院","name": "奇优影院(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=奇优影院","searchable": 2,"quickSearch": 0,"filterable": 0},
 {"key": "dr_牛马TV","name": "牛马TV(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=牛马TV","searchable": 2,"quickSearch": 0,"filterable": 0},
+{"key": "dr_优酷","name": "优酷(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=优酷","searchable": 2,"quickSearch": 0,"filterable": 1},
 
 {"key":"csp_xpath_喵乐","name":"喵乐(XPF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://agit.ai/fenwe/TVBox/raw/branch/master/MaooXP/喵乐.json"},
 {"key":"csp_美剧虫", "name":"美剧虫(XPF)", "type":3, "api":"csp_XPathMacFilter", "searchable":1, "quickSearch":1, "filterable":1, "ext":"https://agit.ai/fenwe/TVBox/raw/branch/master/MaooXP/meijuchong.json"},
