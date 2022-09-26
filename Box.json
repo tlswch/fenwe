@@ -41,9 +41,9 @@
 {"key": "csp_Alist","name": "Alist","type": 3,"api": "csp_Alist","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "Alist1Adult$https://drive.9t.ee#Alist2$https://alist.52qy.repl.co#Alist3$https://wangpan.sangxuesheng.com#Alist4非盘$http://www.feifwp.top#Alist5一只鱼$https://alist.youte.ml#Alist6小棉袄仓库$http://pan.haikuoshijie.cn#Alist7嗨翻$https://pan.hikerfans.com#Alist8姬路白雪$https://pan.jlbx.xyz#Alist12神族九帝$https://alist.shenzjd.com#","jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/Tangrenjie.jar"},
 {"key": "APPTT","name": "图图","api": "csp_AppTT","type": 3,"filterable": 1,"quickSearch": 1,"searchable": 1},
 
-{"key":"csp_QQ","name":"腾讯视频","type": 3,"api":"csp_QQ","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/0821.jar"},
-{"key":"爱奇艺","name":"爱奇艺","type":3,"api":"csp_IQIYI","quickSearch":1,"searchable":1,"filterable":1,"jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/0821.jar"},
-{"key":"csp_MGTV","name":"芒果TV","type":3,"api":"csp_MGTV","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/0821.jar"},
+{"key":"csp_QQ","name":"腾讯视频","type": 3,"api":"csp_QQ","searchable": 1,"quickSearch": 1,"filterable": 1},
+{"key":"爱奇艺","name":"爱奇艺","type":3,"api":"csp_IQIYI","quickSearch":1,"searchable":1,"filterable":1},
+{"key":"csp_MGTV","name":"芒果TV","type":3,"api":"csp_MGTV","searchable":1,"quickSearch":1,"filterable":1},
 //{"key":"优酷(官源)","name":"优酷","type":0,"api":"http://www.zycaiji.net:7788/api.php/provide/vod/from/youku/at/xml/","searchable":1,"quickSearch":1,"filterable":1,"categories":["综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","港台剧","日韩剧","欧美剧","惊悚片","犯罪片","冒险片","悬疑片","动画片","武侠片","奇幻片","少儿","其他片","其他剧"],"jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/0821.jar"},
 //{"key":"搜狐(官源)","name":"搜狐","type":0,"api":"http://www.zycaiji.net:7788/api.php/provide/vod/from/sohu/at/xml/","searchable":1,"quickSearch":1,"filterable":1,"categories":["综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","港台剧","日韩剧","欧美剧","惊悚片","犯罪片","冒险片","悬疑片","动画片","武侠片","奇幻片","少儿","其他片","其他剧"],"jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/0821.jar"},
 {"key":"Bili","name":"哔哩哔哩","type":3,"api":"csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 0,"ext":"https://agit.ai/fenwe/TVBox/raw/branch/master/sub/Bili.json"},
@@ -613,6 +613,13 @@
 {"name":"解析聚合","type": 3,"url": "Demo"},
 {"name":"Json并发","type": 2,"url": "Parallel"},
 {"name":"Json轮询","type": 2,"url": "Sequence"},
+{"name": "GGTV自用","type": 1,"url": "https://play.fuqizhishi.com/jx/API.php?appkey=xiaobaiiiii&url="},
+{"name": "GGTV搜集","type": 1,"url": "https://play.fuqizhishi.com/juhe/API.php?appkey=caijijuhe220902&url="},
+{"name":"Fosi嗅探","type":0,"url":"https://play.fositv.com/?url="},
+{"name": "OKjx嗅探","type": 0,"url": "https://okjx.cc/?url="},
+{"name":"爱酷嗅探","type":0,"url":"https://jx.zhanlangbu.com/?url="},
+{"name":"刘兵解析","type":1,"url":"http://newjiexi.gotka.top/keyu3.php?url=","ext":{"header":{"User-Agent":"okhttp/4.1.0"}}},
+{"name": "江湖解析","type": 1,"url": "http://211.99.99.236:4567/jhjson/ceshi.php?url="},
 {"name":"icu","type": 1,"url": "https://cache.json.icu/home/api?type=ys&uid=292796&key=fnoryABDEFJNPQV269&url="},
 {"name":"yemu","type":0,"url":"https://www.yemu.xyz/?url="},
 {"name":"okjx","type":0,"url":"https://okjx.cc/?url="},
@@ -907,5 +914,5 @@
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
   ],
-  "spider": "https://agit.ai/fenwe/TVBox/raw/branch/master/jar/0922.jar"
+  "spider": "https://agit.ai/fenwe/TVBox/raw/branch/master/jar/gg0925.jar"
 }
