@@ -25,13 +25,29 @@ class Spider(Spider):  # 元类 默认的元类 type
     def homeContent(self, filter):
         result = {}
         cateManual = {
-            "七米蓝": "https://al.chirmyram.com/",
-            "梅花盘": "https://pan.142856.xyz/OneDrive",
-            "触光云盘": "https://pan.ichuguang.com",
-            # "小孟资源": "https://8023.haohanba.cn/小孟丨资源大合集/无损音乐",
-            "资源小站": "https://960303.xyz/ali",
-            "轻弹浅唱": "https://g.xiang.lol",
-            "小兵组网盘视频": "https://6vv.app"
+            "Adult": "https://drive.9t.ee",
+            "kugutsu":"https://www.kugutsu.ml",
+            "Disk": "http://124.222.140.243:8080",
+            "一只魚": "https://alist.youte.ml",
+            "七米藍": "https://al.chirmyram.com",
+            "姬路白雪": "https://pan.jlbx.xyz",
+            "小兵": "https://6vv.app",
+            "小江": "https://dyj.me",
+            "小鴨": "http://43.139.29.179:5244",
+            "帥鵬": "https://hi.shuaipeng.wang",
+            "星夢": "https://pan.bashroot.top",
+            "晴園": "https://alist.52qy.repl.co",
+            "木偶": "https://www.kugutsu.ml",
+            "梓澪": "https://xn--i0v44m.xyz",
+            "浩瀚吧": "https://8023.haohanba.cn",
+            "神族九帝": "https://alist.shenzjd.com",
+            "秋雨": "https://share.laowang.me",
+            "米奇": "https://anime.mqmmw.ga",
+            "菊花": "https://pan.142856.xyz",
+            "觸光": "https://pan.ichuguang.com",
+            "資源小站": "https://960303.xyz",
+            "輕彈淺唱": "https://g.xiang.lol",
+            "雲播放": "https://quanzi.laoxianghuijia.cn"
         }
         classes = []
         for k in cateManual:
