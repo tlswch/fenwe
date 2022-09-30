@@ -20,28 +20,6 @@ class Spider(Spider):  # 元类 默认的元类 type
 	def homeContent(self,filter):
 		result = {}
 		cateManual = {
-			"新闻1":"TOPC1451539822927345",#华人世界
-			"新闻2":"TOPC1451558926200436",#环球视线
-			"法治": "TOPC1451542672944335", #忏悔录
-			"经济": "TOPC1451531385787654", #天下财经
-			"科教1":"TOPC1451540268188575", #国宝档案
-			"科教2":"TOPC1451543426689237", #夜线
-			"农业1": "TOPC1568949310515140", #致富经
-			"农业2": "TOPC1563178829094125", #乡间纪事
-			"健康乡村纪实": "TOPC1451542933238628", #见证
-			"音乐1": "TOPC1451541994820527", #民歌·中国
-			"音乐2": "TOPC1451542222069826", #音乐传奇
-			"电影电视剧": "TOPC1451469943519994", #星推荐
-			"军事1": "TOPC1451527941788652", #军事报道
-			"军事2": "TOPC1575602995944674", #军事纪录
-			"动画":"TOPC1451542209144770", #动画城
-			"少儿": "TOPC1451559344361150", #大仓库
-			"生活": "TOPC1451541349400938", #远方的家
-			"综艺1": "TOPC1451541564922207", #中华情
-			"综艺2": "TOPC1451984301286720", #欢乐中国行
-			"体育1": "TOPC1451550970356385", #体坛快讯
-			"体育2": "TOPC1551324792732798", #ATP周刊
-			"戏曲": "TOPC1451558728003217", #影视剧场
 			"等着我": "TOPC1451378757637200",
 			"我爱发明": "TOPC1569314345479107",
 			"动物世界": "TOPC1451378967257534",
@@ -141,7 +119,18 @@ class Spider(Spider):  # 元类 默认的元类 type
 		content = rsp.text.strip()
 		arr = content.split('\n')
 		urlPrefix = self.regStr(id,'(http[s]?://[a-zA-z0-9.]+)/')
+		
+		subUrl = arr[-1].split('/')
+		subUrl[3] = '1200'
+		subUrl[-1] = '1200.m3u8'
+		hdUrl = urlPrefix + '/'.join(subUrl)
+
 		url = urlPrefix + arr[-1]
+
+		hdRsp = self.fetch(hdUrl,headers=self.header)
+		if hdRsp.status_code == 200:
+			url = hdUrl
+
 		result["parse"] = 0
 		result["playUrl"] = ''
 		result["url"] = url
