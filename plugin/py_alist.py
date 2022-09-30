@@ -5,8 +5,8 @@ sys.path.append('..')
 from base.spider import Spider
 import json
 import re
-import difflib
 import urllib
+import difflib
 
 class Spider(Spider):  # 元类 默认的元类 type
     def getName(self):
@@ -26,7 +26,6 @@ class Spider(Spider):  # 元类 默认的元类 type
         result = {}
         cateManual = {
             "Adult": "https://drive.9t.ee",
-            "kugutsu":"https://www.kugutsu.ml",
             "Disk": "http://124.222.140.243:8080",
             "一只魚": "https://alist.youte.ml",
             "七米藍": "https://al.chirmyram.com",
@@ -47,6 +46,7 @@ class Spider(Spider):  # 元类 默认的元类 type
             "觸光": "https://pan.ichuguang.com",
             "資源小站": "https://960303.xyz",
             "輕彈淺唱": "https://g.xiang.lol",
+            "kugutsu":"https://www.kugutsu.ml",
             "雲播放": "https://quanzi.laoxianghuijia.cn"
         }
         classes = []
@@ -58,7 +58,13 @@ class Spider(Spider):  # 元类 默认的元类 type
             })
         result['class'] = classes
         if (filter):
-            result['filters'] = self.config['filter']
+            filters = {}
+            for lk in cateManual:
+                link = cateManual[lk]
+                filters.update({
+                    link: [{"key": "nm", "name": "名        称", "value": [{"n": "复位", "v": ""},{"n": "正序", "v": "False"},{"n": "反序", "v": "True"}]},{"key": "sz", "name": "大        小", "value": [{"n": "复位", "v": ""},{"n": "升序", "v": "False"},{"n": "降序", "v": "True"}]},{"key": "tp", "name": "类        型", "value": [{"n": "复位", "v": ""},{"n": "升序", "v": "False"},{"n": "降序", "v": "True"}]},{"key": "tm", "name": "修改时间", "value": [{"n": "复位", "v": ""},{"n": "升序", "v": "False"},{"n": "降序", "v": "True"}]}]
+                })
+            result['filters'] = filters
         return result
 
     def homeVideoContent(self):
@@ -108,8 +114,52 @@ class Spider(Spider):  # 元类 默认的元类 type
             rsp = self.postJson(baseurl + 'api/fs/list', param)
             jo = json.loads(rsp.text)
             vodList = jo['data']['content']
+        ovodList = vodList
+        if len(extend) != 0:
+            if 'tp' in extend and extend['tp'] != '':
+                fl = 'type'
+                if extend['tp'] == "True":
+                    key = True
+                if extend['tp'] == "False":
+                    key = False
+                vodList.sort(key=lambda x: (x['{0}'.format(fl)]), reverse=key)
+            elif 'sz' in extend and extend['sz'] != '':
+                fl = 'size'
+                if extend['sz'] == "True":
+                    key = True
+                if extend['sz'] == "False":
+                    key = False
+                vodList.sort(key=lambda x: (x['{0}'.format(fl)]), reverse=key)
+            elif 'nm' in extend and extend['nm'] != '':
+                fl = 'name'
+                if extend['nm'] == "True":
+                    key = True
+                if extend['nm'] == "False":
+                    key = False
+                vodList.sort(key=lambda x: (x['{0}'.format(fl)]), reverse=key)
+            elif 'tm' in extend and extend['tm'] != '':
+                if ver == 2:
+                    fl = 'updated_at'
+                elif ver == 3:
+                    fl = 'modified'
+                if extend['tm'] == "True":
+                    key = True
+                if extend['tm'] == "False":
+                    key = False
+                vodList.sort(key=lambda x: (x['{0}'.format(fl)]), reverse=key)
+            else:
+                vodList = ovodList
+        else:
+            vodList = ovodList
         videos = []
         cid = ''
+        purl = ''
+        svodList = str(vodList)
+        lenvodList = len(vodList)
+        nameList = re.findall(r"\'name\': \'(.*?)\'", svodList)
+        substr = str(nameList)
+        foldernum = svodList.count('\'type\': 1')
+        filenum = lenvodList - foldernum
         for vod in vodList:
             if ver == 2:
                 img = vod['thumbnail']
@@ -146,51 +196,73 @@ class Spider(Spider):  # 元类 默认的元类 type
                     sz = round(size / (1024.0), 2)
                 tag = "file"
                 remark = str(sz) + fs
+                cid = baseurl + aid + vod['name']
                 # 开始爬视频与字幕
-                srtvodList = str(vodList)
-                foldernum = srtvodList.count('\'type\': 1')
-                filename = len(vodList) - foldernum
-                if filename < 60:
-                    if 'mp4' in vod['name'] or 'mkv' in vod['name'] or 'TS' in vod['name'] or 'flv' in vod[
-                        'name'] or 'rmvb' in vod['name'] or 'mp3' in vod['name'] or 'flac' in vod['name'] or 'wav' in \
-                            vod['name'] or 'wma' in vod['name'] or 'wma' in vod['name']:
-                        cid = ''
-                        for temvod in vodList:
-                            if 'mp4' in temvod['name'] or 'mkv' in temvod['name'] or 'TS' in temvod['name'] or 'flv' in \
-                                    temvod['name'] or 'rmvb' in temvod['name'] or 'mp3' in temvod['name'] or 'flac' in \
-                                    temvod['name'] or 'wav' in temvod['name'] or 'wma' in temvod['name'] or 'wma' in \
-                                    temvod['name']:
-                                vurl = baseurl + aid + temvod['name']
-                                # 开始爬字幕
-                                subname = re.findall(r"(.*)\.", temvod['name'])[0]
-                                substr = re.findall(r"\'name\': \'(.*?)\'", str(vodList))
-                                if len(substr) == 2:
-                                    suball = substr
+                if filenum < 150:
+                    if vod['name'].endswith('.mp4') or vod['name'].endswith('.mkv') or vod['name'].endswith('.ts') or vod['name'].endswith('.TS') or vod['name'].endswith('.avi') or vod['name'].endswith('.flv') or vod['name'].endswith('.rmvb') or vod['name'].endswith('.mp3') or vod['name'].endswith('.flac') or vod['name'].endswith('.wav') or vod['name'].endswith('.wma') or vod['name'].endswith('.dff'):
+                        vodurl = vod['name']
+                        # 开始爬字幕
+                        cid = '###'
+                        subname = re.findall(r"(.*)\.", vod['name'])[0]
+                        if filenum == 2:
+                            if '.ass' in substr:
+                                sub = difflib.get_close_matches('.ass', nameList, 1, cutoff=0.1)
+                                if len(sub) != 0:
+                                    sub = sub[0]
                                 else:
-                                    suball = difflib.get_close_matches(subname, substr, len(vodList), cutoff=0.8)
-                                for sub in suball:
-                                    if sub.endswith(".ass") or sub.endswith(".srt"):
-                                        subt = '@@@' + baseurl + aid + sub
-                                ifsubt = 'subt' in locals().keys()
-                                if ifsubt is False:
-                                    cid = cid + '{0}${1}#'.format(temvod['name'], vurl)
+                                    sub = ''
+                                if sub.endswith('.ass'):
+                                    subt = '@@@' + sub
+                            if '.srt' in substr:
+                                sub = difflib.get_close_matches('.srt', nameList, 1, cutoff=0.1)
+                                if len(sub) != 0:
+                                    sub = sub[0]
                                 else:
-                                    cid = cid + '{0}${1}{2}#'.format(temvod['name'], vurl, subt)
-                            else:
-                                cid = cid
-                    if cid == '':
-                        cid = baseurl + aid + vod['name']
+                                    sub = ''
+                                if sub.endswith('.srt'):
+                                    subt = '@@@' + sub
+                        else:
+                            if '.ass' in substr:
+                                sub = difflib.get_close_matches('{0}.ass'.format(subname), nameList, 1, cutoff=0.1)
+                                if len(sub) != 0:
+                                    sub = sub[0]
+                                else:
+                                    sub = ''
+                                if subname in sub and sub.endswith('.ass'):
+                                    subt = '@@@' + sub
+                            elif '.srt' in substr:
+                                sub = difflib.get_close_matches('{0}.srt'.format(subname), nameList, 1, cutoff=0.1)
+                                if len(sub) != 0:
+                                    sub = sub[0]
+                                else:
+                                    sub = ''
+                                if subname in sub and sub.endswith('.srt'):
+                                    subt = '@@@' + sub
+                        # 合并链接
+                        if 'subt' in locals().keys():
+                            purl = purl + '{0}{1}##'.format(vodurl, subt)
+                        else:
+                            purl = purl + '{0}##'.format(vodurl)
                 else:
                     subname = re.findall(r"(.*)\.", vod['name'])[0]
-                    substr = re.findall(r"\'name\': \'(.*?)\'", str(vodList))
-                    if subname + '.ass' in substr:
-                        subt = '@@@' + baseurl + aid + subname + '.ass'
-                        cid = baseurl + aid + vod['name'] + subt
-                    elif  subname + '.srt' in substr:
-                        subt = '@@@' + baseurl + aid + subname + '.srt'
-                        cid = baseurl + aid + vod['name'] + subt
-                    else:
-                        cid = baseurl + aid + vod['name']
+                    if '.ass' in substr:
+                        sub = difflib.get_close_matches('{0}.ass'.format(subname), nameList, 1, cutoff=0.1)
+                        if len(sub) != 0:
+                            sub = sub[0]
+                        else:
+                            sub = ''
+                        if subname in sub and sub.endswith('.ass'):
+                            subt = '@@@' + sub
+                            cid = cid + subt
+                    elif '.srt' in substr:
+                        sub = difflib.get_close_matches('{0}.srt'.format(subname), nameList, 1, cutoff=0.1)
+                        if len(sub) != 0:
+                            sub = sub[0]
+                        else:
+                            sub = ''
+                        if subname in sub and sub.endswith('.srt'):
+                            subt = '@@@' + sub
+                            cid = cid + subt
             videos.append({
                 "vod_id":  cid,
                 "vod_name": vod['name'],
@@ -198,35 +270,53 @@ class Spider(Spider):  # 元类 默认的元类 type
                 "vod_tag": tag,
                 "vod_remarks": remark
             })
+        if 'purl' in locals().keys():
+            purl = baseurl + aid + '+++' + purl
+            for i in range(foldernum, lenvodList):
+                if videos[i]['vod_id'] == '###':
+                    videos[i]['vod_id'] = purl
         result['list'] = videos
         result['page'] = 1
         result['pagecount'] = 1
-        result['limit'] = 999
-        result['total'] = 999999
+        result['limit'] = lenvodList
+        result['total'] = lenvodList
         return result
 
     def detailContent(self, array):
         id = array[0]
-        if '$' in id:
-            ids = id.split('$')[1].split('#')[0].split('@@@')
-            url = ids[0]
+        if '+++' in id:
+            ids = id.split('+++')
+            durl = ids[0]
+            vsList = ids[1].strip('##').split('##')
+            vsurl = ''
+            for vs in vsList:
+                if '@@@' in vs:
+                    dvs = vs.split('@@@')
+                    vname = dvs[0].replace('#','-')
+                    vurl = durl + dvs[0].replace('#','---')
+                    surl = durl + dvs[1].replace('#','---')
+                    vsurl = vsurl + '{0}${1}@@@{2}#'.format(vname, vurl, surl)
+                else:
+                    vurl = durl + vs.replace('#','---')
+                    vsurl = vsurl + '{0}${1}#'.format(vs.replace('#','-'), vurl)
+            url = vsurl
         else:
-            url = id
+            durl = id.replace('#','-')
         if self.ver == '' or self.baseurl == '':
-            self.getVersion(url)
+            self.getVersion(durl)
         baseurl = self.baseurl
-        if '$' in id:
-            vid = re.findall(r"(.*)/", url.replace(baseurl, ""))[0].replace(baseurl, "")
+        if '+++' in id:
+            vid = durl.replace(baseurl, "").strip('/')
         else:
-            vid = url.replace(re.findall(r".*/", url)[0], "")
-            id = vid + '$' + id
+            vid = durl.replace(re.findall(r".*/", durl)[0], "")
+            url = vid + '$' + id.replace('#','---')
         vod = {
             "vod_id": vid,
             "vod_name": vid,
             "vod_pic": '',
             "vod_tag": '',
             "vod_play_from": "播放",
-            "vod_play_url": id
+            "vod_play_url": url
         }
         result = {
             'list': [
@@ -243,6 +333,9 @@ class Spider(Spider):  # 元类 默认的元类 type
 
     def playerContent(self, flag, id, vipFlags):
         result = {}
+        url = ''
+        subturl = ''
+        id = id.replace('---','#')
         ifsub = '@@@' in id
         if ifsub is True:
             ids = id.split('@@@')
@@ -330,6 +423,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 
         return result
 
+    flurl = ''
     config = {
         "player": {},
         "filter": {}
