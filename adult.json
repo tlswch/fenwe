@@ -1,5 +1,5 @@
 {
-  "spider": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar",
+  "spider": "https://agit.ai/fenwe/TVBox/raw/branch/master/jar/FongMi.jar",
   "sites": [
     {
       "key": "AList",
