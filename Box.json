@@ -112,6 +112,7 @@
 {"key": "py_huya","name": "虎牙(pyramid)","type": 3,"api": "py_huya","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_huya.py"}, 
 {"key": "py_douyu","name": "斗鱼(pyramid)","type": 3,"api": "py_douyu","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_douyu.py"}, 
 {"key": "py_bilivd","name": "B站(pyramid)","type": 3,"api": "py_bilivd","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_bilivd.py"},
+{"key": "py_qie","name": "企鹅体育(pyramid)","type": 3,"api": "py_qie","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_qie.py"},
 {"key": "py_3qu","name": "3QU(pyramid)","type": 3,"api": "py_3qu","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_3qu.py"},
 {"key": "py_cyys","name": "创艺(pyramid)","type": 3,"api": "py_cyys","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_cyys.py"},
 {"key": "py_kunyu77","name": "酷云77(pyramid)","type": 3,"api": "py_kunyu77","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_kunyu77"},
