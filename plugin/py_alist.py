@@ -25,7 +25,6 @@ class Spider(Spider):  # 元类 默认的元类 type
     def homeContent(self, filter):
         result = {}
         cateManual = {
-            "Adult": "https://drive.9t.ee",
             "Disk": "http://124.222.140.243:8080",
             "一只魚": "https://alist.youte.ml",
             "七米藍": "https://al.chirmyram.com",
@@ -46,6 +45,7 @@ class Spider(Spider):  # 元类 默认的元类 type
             "觸光": "https://pan.ichuguang.com",
             "資源小站": "https://960303.xyz",
             "輕彈淺唱": "https://g.xiang.lol",
+            "Adult": "https://drive.9t.ee",
             "kugutsu":"https://www.kugutsu.ml",
             "雲播放": "https://quanzi.laoxianghuijia.cn"
         }
