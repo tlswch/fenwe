@@ -44,16 +44,8 @@
 {"key": "櫻花","name": "櫻花","type": 3,"api": "csp_Ying","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/ysj.jar"},
 {"key": "巴士","name": "巴士","type": 3,"api": "csp_Dm84","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/ysj.jar"},
 {"key": "異界","name": "異界","type": 3,"api": "csp_Ysj","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/ysj.jar"},
-{
-      "key": "RelaxSP",
-      "name": "轻松",
-      "api": "csp_RelaxSP",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,"ext":"https://agit.ai/fenwe/TVBox/raw/branch/master/sub/relax.json",
-    "jar":"https://github.com/franksun1211/TVBOX/blob/main/APP/JAR/RelaxSP.jar?raw=true;md5;3f59506311fbbfe6a1976d5481ee3fad"
-    },
+{"key": "RelaxSP","name": "轻松","api": "csp_RelaxSP","type": 3,"searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://agit.ai/fenwe/TVBox/raw/branch/master/sub/relax.json","jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/RelaxSP.jar"},
+
 {"key":"csp_QQ","name":"腾讯视频","type": 3,"api":"csp_QQ","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key":"爱奇艺","name":"爱奇艺","type":3,"api":"csp_IQIYI","quickSearch":1,"searchable":1,"filterable":1},
 {"key":"csp_MGTV","name":"芒果TV","type":3,"api":"csp_MGTV","searchable":1,"quickSearch":1,"filterable":1},
