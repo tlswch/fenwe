@@ -1,5 +1,4 @@
 {
-  "spider": "https://agit.ai/fenwe/TVBox/raw/branch/master/jar/FongMi.jar",
   "sites": [
     {
       "key": "AList",
@@ -7,6 +6,7 @@
       "type": 3,
       "api": "csp_AList",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1,
       "ext": "9T$https://drive.9t.ee#木偶$https://www.kugutsu.ml"
     },
@@ -16,6 +16,7 @@
       "type": 3,
       "api": "csp_Nbys",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -24,6 +25,7 @@
       "type": 3,
       "api": "csp_Pig",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -32,6 +34,7 @@
       "type": 3,
       "api": "csp_Jable",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -40,6 +43,7 @@
       "type": 3,
       "api": "csp_Supjav",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -48,6 +52,7 @@
       "type": 3,
       "api": "csp_Hanime",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -56,6 +61,7 @@
       "type": 1,
       "api": "http://madouse.la/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -64,6 +70,7 @@
       "type": 1,
       "api": "http://51smt4.xyz/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -72,6 +79,7 @@
       "type": 0,
       "api": "http://www.ggmmzy.com:9999/inc/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -80,6 +88,7 @@
       "type": 0,
       "api": "http://bttcj.com/inc/sapi.php",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -88,6 +97,7 @@
       "type": 0,
       "api": "http://cjmygzy.com/inc/sapi.php?ac=videolist",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -96,6 +106,7 @@
       "type": 0,
       "api": "http://jcspcj8.com/api?ac=videolist",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -104,6 +115,7 @@
       "type": 0,
       "api": "http://wmcj8.com/inc/sapi.php",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -112,6 +124,7 @@
       "type": 0,
       "api": "http://secj8.com/inc/sapi.php?ac=videolist",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -120,6 +133,7 @@
       "type": 0,
       "api": "http://dadiapi.com/api.php",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -128,6 +142,7 @@
       "type": 1,
       "api": "http://api.kudian70.com/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -136,6 +151,7 @@
       "type": 1,
       "api": "http://apilj.com/api.php/provide/vod/at/json/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -144,6 +160,7 @@
       "type": 0,
       "api": "http://zmcj88.com/sapi?ac=videolist",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -152,6 +169,7 @@
       "type": 1,
       "api": "http://api.putaozy.net/inc/apijson_vod.php",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -160,6 +178,7 @@
       "type": 0,
       "api": "http://mygzycj.com/api.php?ac=list",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -168,6 +187,7 @@
       "type": 0,
       "api": "http://llzxcj.com/inc/sck.php?ac=videolist",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -176,6 +196,7 @@
       "type": 0,
       "api": "http://99zywcj.com/inc/sapi.php?ac=videolist",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -184,6 +205,7 @@
       "type": 1,
       "api": "http://www.jializyzapi.com/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -192,6 +214,7 @@
       "type": 0,
       "api": "http://f2dcj6.com/sapi?ac=videolist",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -200,6 +223,7 @@
       "type": 1,
       "api": "http://91md.me/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -208,6 +232,7 @@
       "type": 0,
       "api": "http://sdszyapi.com/home/cjapi/asbb/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -216,6 +241,7 @@
       "type": 0,
       "api": "http://www.010aizy.com/API/macs.php",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -224,6 +250,7 @@
       "type": 1,
       "api": "http://www.feifei67.com/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -232,6 +259,7 @@
       "type": 1,
       "api": "http://api.kdapi.info/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -240,6 +268,7 @@
       "type": 0,
       "api": "http://xjjzyapi.com/home/cjapi/askl/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -248,6 +277,7 @@
       "type": 1,
       "api": "http://99zy.pw/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -256,6 +286,7 @@
       "type": 0,
       "api": "http://www.caiji25.com/home/cjapi/p0as/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -264,6 +295,7 @@
       "type": 0,
       "api": "http://www.caiji21.com/home/cjapi/klkl/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -272,6 +304,7 @@
       "type": 0,
       "api": "http://caiji26.com/home/cjapi/p0g8/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -280,6 +313,7 @@
       "type": 0,
       "api": "http://www.caiji24.com/home/cjapi/p0d2/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -288,6 +322,7 @@
       "type": 0,
       "api": "http://api.11bat.com/api.php/provide/vod/at/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -296,6 +331,7 @@
       "type": 1,
       "api": "https://www.leyuzyapi.com/inc/apijson_vod.php",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -304,6 +340,7 @@
       "type": 1,
       "api": "https://api.maozyapi.com/inc/apijson_vod.php",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -312,6 +349,7 @@
       "type": 1,
       "api": "https://www.888dav.com/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -320,6 +358,7 @@
       "type": 0,
       "api": "http://www.987caiji.com/api/max.php",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -328,6 +367,7 @@
       "type": 1,
       "api": "https://mgzyz1.com/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -336,6 +376,7 @@
       "type": 0,
       "api": "https://www.gdlsp.com/api/xml.php",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -344,6 +385,7 @@
       "type": 0,
       "api": "https://www.mgav1.cc/api.php/provide/vod/at/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -352,6 +394,7 @@
       "type": 1,
       "api": "https://api.ykapi.net/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -360,6 +403,7 @@
       "type": 0,
       "api": "https://www.caiji07.com/home/cjapi/cfcf/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -368,6 +412,7 @@
       "type": 1,
       "api": "https://shayuapi.com/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -376,6 +421,7 @@
       "type": 0,
       "api": "https://www.caiji02.com/home/cjapi/cfas/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -384,6 +430,7 @@
       "type": 1,
       "api": "https://caiji.huakuiapi.com/inc/apijson_vod.php",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -392,6 +439,7 @@
       "type": 0,
       "api": "https://www.caiji01.com/home/cjapi/cfd2/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -400,6 +448,7 @@
       "type": 0,
       "api": "https://www.kxgav.com/api/xml.php",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -408,6 +457,7 @@
       "type": 0,
       "api": "https://www.caiji08.com/home/cjapi/cfkl/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -416,6 +466,7 @@
       "type": 0,
       "api": "https://www.msnii.com/api/xml.php",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -424,6 +475,7 @@
       "type": 1,
       "api": "https://apittzy.com/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -432,6 +484,7 @@
       "type": 0,
       "api": "https://www.caiji09.com/home/cjapi/cfp0/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -440,6 +493,7 @@
       "type": 0,
       "api": "https://www.dmmapi.com/home/cjapi/asd2c7/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -448,6 +502,7 @@
       "type": 1,
       "api": "https://lbapi9.com/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -456,6 +511,7 @@
       "type": 1,
       "api": "https://kkzy.me/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -464,6 +520,7 @@
       "type": 1,
       "api": "https://caiji.caomeiapi.com/inc/apijson_vod.php",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -472,6 +529,7 @@
       "type": 1,
       "api": "https://caiji.naichaapi.com/inc/apijson_vod.php",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -480,6 +538,7 @@
       "type": 0,
       "api": "https://www.caiji05.com/home/cjapi/cfda/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -488,6 +547,7 @@
       "type": 1,
       "api": "https://siwazyw.cc/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -496,6 +556,7 @@
       "type": 0,
       "api": "https://www.caiji10.com/home/cjapi/cfs6/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -504,6 +565,7 @@
       "type": 0,
       "api": "https://www.caiji03.com/home/cjapi/cfg8/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -512,6 +574,7 @@
       "type": 1,
       "api": "https://kudouzy.com/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -520,6 +583,7 @@
       "type": 0,
       "api": "https://xx55zyapi.com/home/cjapi/ascf/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -528,6 +592,7 @@
       "type": 1,
       "api": "https://caiji.523zyw.com/inc/apijson_vod.php",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -536,6 +601,7 @@
       "type": 0,
       "api": "https://www.caiji04.com/home/cjapi/cfc7/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -544,6 +610,7 @@
       "type": 0,
       "api": "https://52zyapi.com/home/cjapi/asda/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -552,6 +619,7 @@
       "type": 0,
       "api": "https://www.caiji22.com/home/cjapi/klp0/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -560,6 +628,7 @@
       "type": 0,
       "api": "https://www.afasu.com/api/xml.php",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -568,6 +637,7 @@
       "type": 1,
       "api": "https://api.xiuseapi.com/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -576,6 +646,7 @@
       "type": 0,
       "api": "https://www.xrbsp.com/api/xml.php",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -584,6 +655,7 @@
       "type": 0,
       "api": "https://www.caiji23.com/home/cjapi/kls6/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -592,6 +664,7 @@
       "type": 0,
       "api": "https://jgczyapi.com/home/cjapi/kld2/mc10/vod/xml",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -600,6 +673,7 @@
       "type": 1,
       "api": "https://api.yinwoapi.com/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -608,6 +682,7 @@
       "type": 1,
       "api": "https://sewozyapi.com/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -616,6 +691,7 @@
       "type": 1,
       "api": "https://api.apilyzy.com/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -624,6 +700,7 @@
       "type": 1,
       "api": "http://cj.apiabzy.com/api.php/provide/vod/",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -632,8 +709,10 @@
       "type": 3,
       "api": "csp_Push",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1,
       "ext": "3865f0ab8f124688ad786a262af9b940"
     }
-  ]
+  ],
+  "spider": "https://agit.ai/fenwe/TVBox/raw/branch/master/jar/FongMi.jar"
 }
