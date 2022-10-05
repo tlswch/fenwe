@@ -40,6 +40,7 @@
 {"key":"csp_Bdys01","name":"Bdys01","type":3,"api":"csp_Bdys01","searchable":1,"quickSearch":1,"filterable":1,"ext":"","jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/Tangrenjie.jar"},
 {"key": "csp_Alist","name": "Alist","type": 3,"api": "csp_Alist","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/sub/alist.json","jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/Tangrenjie.jar"},
 {"key": "APPTT","name": "图图","api": "csp_AppTT","type": 3,"filterable": 1,"quickSearch": 1,"searchable": 1},
+{"key":"csp_bendi","name":"本地视频","type":3,"api":"csp_LocalFile","searchable":0,"quickSearch":0,"filterable":0,"type_flag":1},
 {"key": "櫻花","name": "櫻花","type": 3,"api": "csp_Ying","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/ysj.jar"},
 {"key": "巴士","name": "巴士","type": 3,"api": "csp_Dm84","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/ysj.jar"},
 {"key": "異界","name": "異界","type": 3,"api": "csp_Ysj","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/ysj.jar"},
