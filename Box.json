@@ -164,7 +164,16 @@
 {"key": "dr_酷云77","name": "酷云77(道长)","type": 1,"api": "https://gitcode.net/fenwe078/dr_py/-/raw/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 1,"ext":"https://gitcode.net/fenwe078/dr_py/-/raw/master/js/酷云77.js"},
 {"key": "dr_百忙无果","name": "百忙无果(道长)","type": 1,"api": "https://gitcode.net/fenwe078/dr_py/-/raw/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 1,"ext":"https://gitcode.net/fenwe078/dr_py/-/raw/master/js/百忙无果.js"},
 {"key": "dr_优酷","name": "优酷(道长)","type": 1,"api": "https://gitcode.net/fenwe078/dr_py/-/raw/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 1,"ext":"https://gitcode.net/fenwe078/dr_py/-/raw/master/js/优酷js"},
-
+{
+   "key": "dr_优酷",
+   "name": "优酷(drpy)",
+   "type": 3,
+   "api": "https://gitcode.net/qq_32394351/dr_py/-/raw/master/libs/drpy.min.js",
+   "searchable": 2,
+   "quickSearch": 0,
+   "filterable": 1,
+   "ext": "https://gitcode.net/qq_32394351/dr_py/-/raw/master/js/优酷.js"
+  },
 //{"key": "dr_夜空","name": "夜空(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=夜空","searchable": 2,"quickSearch": 0,"filterable": 0},
 //{"key": "dr_360影视","name": "360影视(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=360影视","searchable": 2,"quickSearch": 0,"filterable": 0},
 //{"key": "dr_追剧喵","name": "追剧喵(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=追剧喵","searchable": 2,"quickSearch": 0,"filterable": 0},
