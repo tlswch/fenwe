@@ -121,7 +121,7 @@
 {"key": "py_kunyu77","name": "酷云77(pyramid)","type": 3,"api": "py_kunyu77","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_kunyu77"},
 {"key": "py_kuaikan","name": "快看(pyramid)","type": 3,"api": "py_kuaikan","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_kuaikan"},
 
-{"key": "dr_夜空","name": "夜空(道长)","type": 1,"api": "https://gitcode.net/fenwe078/dr_py/-/raw/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext":"https://gitcode.net/fenwe078/dr_py/-/raw/master/js/夜空.js"},
+{"key": "dr_夜空","name": "夜空(道长)","type": 1,"api": "https://raw.githubusercontent.com/ShadowDemon1997/CatVodSpiderJS/main/drpy.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext":"https://gitcode.net/fenwe078/dr_py/-/raw/master/js/夜空.js"},
 {"key": "dr_360影视","name": "360影视(道长)","type": 1,"api": "https://gitcode.net/fenwe078/dr_py/-/raw/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext":"https://gitcode.net/fenwe078/dr_py/-/raw/master/js/360影视.js"},
 {"key": "dr_追剧喵","name": "追剧喵(道长)","type": 1,"api": "https://gitcode.net/fenwe078/dr_py/-/raw/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext":"https://gitcode.net/fenwe078/dr_py/-/raw/master/js/追剧喵.js"},
 {"key": "dr_AnFuns","name": "AnFuns(道长)","type": 1,"api": "https://gitcode.net/fenwe078/dr_py/-/raw/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext":"https://gitcode.net/fenwe078/dr_py/-/raw/master/js/AnFuns.js"},
