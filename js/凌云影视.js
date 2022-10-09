@@ -2,7 +2,7 @@ var  rule={
     title:'凌云影视',
     host:'https://www.lingyun.in',
     // searchUrl:'/v_search/**----------fypage---.html',
-    url:'/channel/fyclass-fypage.html',
+    url:'/play/fyclass-fypage.html',
     headers:{
         'User-Agent':'MOBILE_UA'
     },
@@ -17,5 +17,5 @@ var  rule={
     一级:'ul.pic-list.clearfix&&li;a&&title;img&&data-src;.s1&&Text;a&&href',
     二级:{"title":".content-rt&&h1&&Text;.content-rt&&p:eq(0)&&Text","img":".img&&img&&data-src","desc":".content-rt&&p:eq(2)&&Text;.content-rt&&p:eq(3)&&Text","content":".movie-introduce&&.sqjj_a&&Text","tabs":".py-tabs&&option","lists":"ul.player:eq(#id)&&li"},
     // 搜索:'.hl-list-item;a&&title;a&&data-original;.remarks&&Text;a&&href',
-    searchable:0,//是否启用全局搜索,
+    searchable:1,//是否启用全局搜索,
 };
