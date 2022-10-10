@@ -95,7 +95,7 @@
 {"key": "py_yiso","name": "易搜(pyramid)","type": 3,"api": "py_yiso","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_yiso.py"}, 
 {"key": "py_zhaozy","name": "找资源(pyramid)","type": 3,"api": "py_zhaozy","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_zhaozy.py"}, 
 {"key": "py_pansou","name": "盘搜(pyramid)","type": 3,"api": "py_pansou","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_pansou.py"}, 
-{"key": "push_agent","name": "阿里(pyramid)","type": 3,"api": "py_ali","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_ali.py?extend=81461f2e9d0b4ffb86612db403824b8a"}, 
+{"key": "push_agent","name": "阿里(pyramid)","type": 3,"api": "py_ali","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_ali.py"}, 
 //{"key": "push_agent","name": "阿里字幕(pyramid)","type": 3,"api": "py_ali_subtitle","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_ali_subtitle.py?extend=81461f2e9d0b4ffb86612db403824b8a"}, 
 
 {"key": "py_douban","name": "豆瓣(pyramid)","type": 3,"api": "py_douban","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_douban.py"}, 
