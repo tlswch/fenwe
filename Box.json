@@ -216,7 +216,7 @@
 {"key": "dr_牛马TV","name": "牛马TV(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=牛马TV","searchable": 2,"quickSearch": 0,"filterable": 0},
 {"key": "dr_酷云77","name": "酷云77(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=酷云77","searchable": 2,"quickSearch": 0,"filterable": 1},
 {"key": "dr_百忙无果","name": "百忙无果(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=百忙无果","searchable": 2,"quickSearch": 0,"filterable": 1},
-{"key": "dr_优酷","name": "优酷(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=优酷","searchable": 2,"quickSearch": 0,"filterable": 1},
+{"key": "dr_优酷","name": "优酷(道长)","type": 1,"api": "http://150.230.98.142:5705/vod?rule=优酷","searchable": 2,"quickSearch": 0,"filterable": 1},
 
 {"key":"csp_xpath_喵乐","name":"喵乐(XPF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://agit.ai/fenwe/TVBox/raw/branch/master/MaooXP/喵乐.json"},
 {"key":"csp_美剧虫", "name":"美剧虫(XPF)", "type":3, "api":"csp_XPathMacFilter", "searchable":1, "quickSearch":1, "filterable":1, "ext":"https://agit.ai/fenwe/TVBox/raw/branch/master/MaooXP/meijuchong.json"},
