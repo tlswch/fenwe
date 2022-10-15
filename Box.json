@@ -75,7 +75,7 @@
 
 {"key": "csp_xBPQ_555影视","name":"555影视(XBPQ)","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://agit.ai/fenwe/TVBox/raw/branch/master/XYQBiu/555电影.json"},
 {"key": "csp_xBPQ_Voflix","name": "Voflix(XBPQ)","type":3,"api": "csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/XYQBiu/Voflix.json"},
-{"key": "csp_xBPQ_农民影视","name": "农民影视(XBPQ)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/XYQBiu/农民影视.json"},
+//{"key": "csp_xBPQ_农民影视","name": "农民影视(XBPQ)","type": 3,"api": "csp_xBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/XYQBiu/农民影视.json"},
 {"key": "csp_xBPQ_真不卡","name": "真不卡(XBPQ)","type": 3,"api": "csp_xBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/XYQBiu/真不卡.json"},
 {"key": "csp_xBPQ_Libvio","name": "Libvio(XBPQ)","type": 3,"api": "csp_xBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/XYQBiu/Libvio.json"},
 {"key": "csp_xBPQ_Cokemv","name": "Cokemv(XBPQ)","type": 3,"api": "csp_xBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/XYQBiu/Cokemv.json"},
