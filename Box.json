@@ -203,6 +203,7 @@
 {"key": "drpy_js_素白白","name": "素白白[DRPY]","type": 3,"api": "https://gitcode.net/fenwe078/dr_py/-/raw/master/libs/drpy.ym.js","ext": "https://gitcode.net/fenwe078/dr_py/-/raw/master/js/素白白.js"},
 {"key": "drpy_js_麦豆","name": "麦豆[DRPY]","type": 3,"api": "https://gitcode.net/fenwe078/dr_py/-/raw/master/libs/drpy.ym.js","ext": "https://gitcode.net/fenwe078/dr_py/-/raw/master/js/麦豆.js"},
 {"key": "drpy_js_麦豆com","name": "麦豆com[DRPY]","type": 3,"api": "https://gitcode.net/fenwe078/dr_py/-/raw/master/libs/drpy.ym.js","ext": "https://gitcode.net/fenwe078/dr_py/-/raw/master/js/麦豆com.js"},
+{"key": "drpy_js_快看","name": "快看[DRPY]","type": 3,"api": "https://gitcode.net/fenwe078/dr_py/-/raw/master/libs/drpy.ym.js","ext": "https://gitcode.net/fenwe078/dr_py/-/raw/master/js/快看.js"},
 {"key": "drpy_js_有声小说吧","name": "有声小说吧[DRPY]","type": 3,"api": "https://gitcode.net/fenwe078/dr_py/-/raw/master/libs/drpy.ym.js","ext": "https://gitcode.net/fenwe078/dr_py/-/raw/master/js/有声小说吧.js"},
 {"key": "drpy_js_短视频","name": "短视频[DRPY]","type": 3,"api": "https://gitcode.net/fenwe078/dr_py/-/raw/master/libs/drpy.ym.js","ext": "https://gitcode.net/fenwe078/dr_py/-/raw/master/js/短视频.js"},
 
@@ -269,6 +270,7 @@
 {"key": "dr_皮皮泡","name": "皮皮泡(道长)","type": 1,"api": "http://150.230.98.142:5705/vod?rule=皮皮泡&ext=txt/js/tg/皮皮泡.js","searchable": 2,"quickSearch": 0,"filterable": 0},
 {"key": "dr_看了么","name": "看了么(道长)","type": 1,"api": "http://150.230.98.142:5705/vod?rule=看了么&ext=txt/js/tg/看了么.js","searchable": 2,"quickSearch": 0,"filterable": 0},
 {"key": "dr_胖虎影视","name": "胖虎影视(道长)","type": 1,"api": "http://150.230.98.142:5705/vod?rule=胖虎影视&ext=txt/js/tg/胖虎影视.js","searchable": 2,"quickSearch": 0,"filterable": 0},
+{"key": "dr_快看","name": "快看(道长)","type": 1,"api": "http://150.230.98.142:5705/vod?rule=快看&ext=txt/js/tg/快看.js","searchable": 2,"quickSearch": 0,"filterable": 0},
 
 {"key":"csp_xpath_喵乐","name":"喵乐(XPF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://agit.ai/fenwe/TVBox/raw/branch/master/MaooXP/喵乐.json"},
 {"key":"csp_美剧虫", "name":"美剧虫(XPF)", "type":3, "api":"csp_XPathMacFilter", "searchable":1, "quickSearch":1, "filterable":1, "ext":"https://agit.ai/fenwe/TVBox/raw/branch/master/MaooXP/meijuchong.json"},
