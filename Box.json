@@ -220,11 +220,11 @@
    "key": "dr_voflix",
    "name": "voflix(drpy)",
    "type": 3,
-   "api": "www.fenwe.tk:5705/libs/drpy.min.js",
+   "api": "https://gitcode.net/fenwe078/dr_py/-/raw/master/libs/drpy.ym.js",
    "searchable": 2,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "www.fenwe.tk:5705/admin/view/voflix.js"
+   "ext": "http://www.fenwe.tk:5705/admin/view/voflix.js"
   },
         
 {"key": "dr_007影视","name": "007影视(道长)","type": 1,"api": "http://150.230.98.142:5705/vod?rule=007影视","searchable": 2,"quickSearch": 0,"filterable": 0},
