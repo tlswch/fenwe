@@ -231,6 +231,7 @@
 {"key": "dr_素白白","name": "素白白(drpy)","type": 3,"api": "http://www.fenwe.tk:5705/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "http://www.fenwe.tk:5705/admin/view/素白白.js"},
 {"key": "dr_蛋蛋赞","name": "蛋蛋赞(drpy)","type": 3,"api": "http://www.fenwe.tk:5705/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "http://www.fenwe.tk:5705/admin/view/蛋蛋赞.js"},
 {"key": "dr_ddys","name": "ddys(drpy)","type": 3,"api": "http://www.fenwe.tk:5705/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "http://www.fenwe.tk:5705/admin/view/ddys.js"},
+{"key": "dr_异世界动漫","name": "异世界动漫(drpy)","type": 3,"api": "http://www.fenwe.tk:5705/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/js/异世界动漫.js"},
 
 {"key": "js_drpy","name": "drpy(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=drpy","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "dr_MXONE","name": "MXONE(道长)","type": 1,"api": "http://www.fenwe.tk:5705/vod?rule=MXONE&ext=txt/js/tg/MXONE.js","searchable": 2,"quickSearch": 0,"filterable": 0},
