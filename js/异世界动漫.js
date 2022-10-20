@@ -1,7 +1,6 @@
 var rule={
     title:'异世界动漫',
     host:'http://www.ysjdm.net',
-    //homeUrl:'http://www.ysjdm.net/index.php/vod/show/id/20.html',
     url:'/index.php/vod/show/class/fyclass/id/20/page/fypage.html',
     searchUrl:'/index.php/vod/search.html?wd=**&submit=**',
     searchable:2,//是否启用全局搜索,
