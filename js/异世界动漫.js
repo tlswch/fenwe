@@ -21,6 +21,6 @@ var rule={
     推荐:'.vodlist;li;a&&title;a&&data-original;.text_right&&Text;a&&href',
     double:true, // 推荐内容是否双层定位
     一级:'.vodlist&&li;a&&title;a&&data-original;.text_right&&Text;a&&href',
-    二级:{"title":"h2&&Text","img":".lazyload&&data-original","desc":"li.data:eq(0)&&Text;li.data:eq(1)&&Text;li.data:eq(2)&&Text;li.data:eq(3)&&Text","content":".content&&span&&Text","tabs":".play_source&&a&&Text","lists":".playlist_full:eq(#id) li"},
+    二级:{"title":"h2&&Text","img":".lazyload&&data-original","desc":"li.data:eq(0)&&Text;li.data:eq(1)&&Text;li.data:eq(2)&&Text;li.data:eq(3)&&Text","content":".content&&span&&Text","tabs":".play_source&&a&&Text","lists":".playlist_full:eq(#id) ul&&li"},
     搜索:'body .module-item;.module-card-item-title&&Text;.lazyload&&data-original;.module-item-note&&Text;a&&href;.module-info-item-content&&Text',
 }
