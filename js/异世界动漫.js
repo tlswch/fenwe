@@ -20,7 +20,7 @@ var rule={
     limit:6,
     推荐:'.vodlist;li;a&&title;a&&data-original;.text_right&&Text;a&&href',
     double:true, // 推荐内容是否双层定位
-    一级:'body p.vodlist_title;a&&title;a&&data-original;.text_right&&Text;a&&href',
+    一级:'.vodlist;li;a&&title;a&&data-original;.text_right&&Text;a&&href',
     二级:{"title":"h2&&Text;.content_detail content_min f1&&ul&&li:eq(0)&&Text","img":".lazyload&&data-original","desc":".module-info-item:eq(1)&&Text;.module-info-item:eq(2)&&Text;.module-info-item:eq(3)&&Text","content":".module-info-introduction&&Text","tabs":".module-tab-item","lists":".module-play-list:eq(#id) a"},
     搜索:'body .module-item;.module-card-item-title&&Text;.lazyload&&data-original;.module-item-note&&Text;a&&href;.module-info-item-content&&Text',
 }
