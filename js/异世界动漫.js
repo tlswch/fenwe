@@ -10,9 +10,9 @@ var rule={
         'User-Agent':'MOBILE_UA',
         // "Cookie": "searchneed=ok"
     },
-    //class_name:'BD无修&萝莉&学院&后宫&恋爱&热血&神魔&奇幻&治愈&搞笑&百合&冒险&魔法&机战&战争&战斗&犯罪&悬疑&推理&科幻&竞技&运动&耽美&其他&OVA&剧场版&国产动漫',
-    //class_url:'BD无修&萝莉&学院&后宫&恋爱&热血&神魔&奇幻&治愈&搞笑&百合&冒险&魔法&机战&战争&战斗&犯罪&悬疑&推理&科幻&竞技&运动&耽美&其他&OVA&剧场版&国产动漫',
-    class_parse:'.scroller ul li:gt(2):lt(29);a&&Text;a&&href;.*/(.*?).html',
+    class_name:'BD无修&萝莉&学院&后宫&恋爱&热血&神魔&奇幻&治愈&搞笑&百合&冒险&魔法&机战&战争&战斗&犯罪&悬疑&推理&科幻&竞技&运动&耽美&其他&OVA&剧场版&国产动漫',
+    class_url:'BD无修&萝莉&学院&后宫&恋爱&热血&神魔&奇幻&治愈&搞笑&百合&冒险&魔法&机战&战争&战斗&犯罪&悬疑&推理&科幻&竞技&运动&耽美&其他&OVA&剧场版&国产动漫',
+    //class_parse:'.scroller ul li:gt(1):lt(29);a&&Text;a&&href;.*/(.*?).html',
     cate_exclude:'',
     play_parse:true,
     lazy:'',
