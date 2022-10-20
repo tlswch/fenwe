@@ -12,7 +12,7 @@ var rule={
     },
     //class_name:'BD无修&萝莉&学院&后宫&恋爱&热血&神魔&奇幻&治愈&搞笑&百合&冒险&魔法&机战&战争&战斗&犯罪&悬疑&推理&科幻&竞技&运动&耽美&其他&OVA&剧场版&国产动漫',
     //class_url:'BD无修&萝莉&学院&后宫&恋爱&热血&神魔&奇幻&治愈&搞笑&百合&冒险&魔法&机战&战争&战斗&犯罪&悬疑&推理&科幻&竞技&运动&耽美&其他&OVA&剧场版&国产动漫',
-    class_parse:'.screen_list;li;a&&Text;a&&href;.*/(.*?).html',
+    class_parse:'.screen_list&&li;a&&Text;a&&href;.*/(.*?).html',
     cate_exclude:'',
     play_parse:true,
     lazy:'',
