@@ -61,7 +61,7 @@
 //{"key":"csp_Gitcafe","name":"小纸条","type":3,"api":"csp_Gitcafe","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/sub/alitoken.json"},
 //{"key":"csp_Yisou","name":"易搜盘","type":3,"api":"csp_Yiso","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://agit.ai/fenwe/TVBox/raw/branch/master/sub/alitoken.json"},
 //{"key":"push_agent","name": "推送","type": 3,"api": "csp_PushAgent","searchable": 0,"quickSearch": 0,"filterable": 0,"ext":"https://agit.ai/fenwe/TVBox/raw/branch/master/sub/alitoken.json"},
-{"key": "t4","name": "T4","type": 4,"api": "http://155.94.146.213:8080=all&ali_token=https://agit.ai/fenwe/TVBox/raw/branch/master/sub/alitoken.json&timeout=8","searchable": 1,"quickSearch": 1,"filterable": 0},
+{"key": "t4","name": "T4","type": 4,"api": "http://155.94.146.213:8080/vod?sites=all&ali_token=https://agit.ai/fenwe/TVBox/raw/branch/master/sub/alitoken.json&timeout=8","searchable": 1,"quickSearch": 1,"filterable": 0},
 {"key": "py_yiso","name": "易搜(pyramid)","type": 3,"api": "py_yiso","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_yiso.py"}, 
 {"key": "py_zhaozy","name": "找资源(pyramid)","type": 3,"api": "py_zhaozy","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_zhaozy.py"}, 
 {"key": "py_pansou","name": "盘搜(pyramid)","type": 3,"api": "py_pansou","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_pansou.py"}, 
