@@ -432,7 +432,7 @@ class Spider(Spider):  # 元类 默认的元类 type
         self.localTime = int(time.time())
         url = 'https://api.aliyundrive.com/token/refresh'
         if len(self.authorization) == 0 or self.timeoutTick - self.localTime <= 600:
-            token = requests.get('https://kebedd69.github.io/TVbox-interface/token.json').text
+            token = requests.get('https://agit.ai/fenwe/TVBox/raw/branch/master/sub/alitoken.json').text
             form = {
                 'refresh_token': token
             }
