@@ -1066,8 +1066,11 @@
         "play.videomiao.vip/API.php",
         "time="
       ]
-    }
-  ],
+    },
+  {"host":"www.djuu.com","rule":["mp4.djuu.com"]},
+{"host":"m.ysxs8.vip","rule":["xmcdn.com"]},
+{"host":"www.sharenice.net","rule":["huoshan.com","/video/"]},
+{"host":"www.sharenice.net","rule":["sovv.qianpailive.com","vid="]}],
   "wallpaper": "https://picsum.photos/1280/720/?blur=10",
   "spider": "https://agit.ai/fenwe/TVBox/raw/branch/master/jar/0922.jar"
 }
