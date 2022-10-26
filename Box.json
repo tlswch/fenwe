@@ -248,6 +248,7 @@
 {"key": "csp_XYQBiu_虎牙","name": "虎牙直接播放(XYQ)","type": 3,"api": "csp_XYQBiu","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/XYQBiu/虎牙代理直链.json","jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/XYQPlugin_1015.jar"},
 {"key": "csp_XYQBiu_凌云影视","name": "凌云影视(XYQ)","type":3,"api": "csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/XYQBiu/凌云视频韩国.json","jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/XYQPlugin_1015.jar"},
 {"key": "csp_XYQBiu_99e","name": "99e(XYQ)","type":3,"api": "csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/XYQBiu/99e.json","jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/XYQPlugin_1015.jar"},
+{"key": "csp_XYQBiu_低端影视","name": "低端影视(XYQ)","type":3,"api": "csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/XYQBiu/低端影视(XYQ).json","jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/XYQPlugin_1015.jar"},
 
 {"key": "csp_xBPQ_555影视","name":"555影视(XBPQ)","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://agit.ai/fenwe/TVBox/raw/branch/master/XYQBiu/555电影.json"},
 {"key": "csp_xBPQ_Voflix","name": "Voflix(XBPQ)","type":3,"api": "csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/XYQBiu/Voflix.json"},
