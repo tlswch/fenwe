@@ -57,7 +57,7 @@
 {"key": "找资源","name": "找资源","type": 3,"api": "csp_Zhaozy","searchable": 1,"playerType": 1,"quickSearch": 1,"filterable": 1,"jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/top97.jar"},
 {"key": "upyunsou","name": "Up云搜","type": 3,"api": "csp_Upyunso","searchable": 1,"quickSearch": 1,"playerType": 1,"filterable": 0,"jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/top97.jar"},
 {"key": "yisou","name": "宜搜","type": 3,"api": "csp_Yisou","searchable": 1,"quickSearch": 1,"playerType": 1,"filterable": 0,"jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/top97.jar"},
-{"key": "AliPS","name": "AliPS","type": 3,"api": "csp_AliPS","searchable": 1,"playerType": 1,"quickSearch": 1,"filterable": 1,"jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/top97.jar"},
+{"key":"AliPS","name":"盘搜","type":3,"api":"csp_AliPS","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://刚刚.live/json/alitoken.json"},
 {"key": "push_agent","name": "推送","type": 3,"api": "csp_PushAgent","searchable": 1,"quickSearch": 1,"playerType": 1,"filterable": 1,"ext": "","jar":"https://agit.ai/fenwe/TVBox/raw/branch/master/jar/top97.jar"},
 {"key": "py_douban","name": "豆瓣(pyramid)","type": 3,"api": "py_douban","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_douban.py"}, 
 {"key": "py_gitcafe","name": "小纸条(pyramid)","type": 3,"api": "py_gitcafe","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/plugin/py_gitcafe.py"}, 
