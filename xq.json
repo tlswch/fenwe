@@ -24,7 +24,8 @@
 {"name": "🎢轻弹浅唱","server": "https://g.xiang.lol","type": "alist"},
 {"name": "阿里","password": "43886374072944a2bcc55a0ed129ab48","type": "alidrive"
 }
-],"homepage": "https://gitcode.net/qq_32394351/dr_py","sites": [{"key": "dr_荐片","name": "荐片(drpy)","type": 3,"api": "http://123.249.89.220:5705/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 1,"ext": "http://123.249.89.220:5705/admin/view/荐片.js"},
+],"homepage": "https://gitcode.net/qq_32394351/dr_py","sites": [
+{"key": "dr_drpy","name": "drpy(drpy)","type": 3,"api": "http://123.249.89.220:5705/libs/drpy.min.js","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://123.249.89.220:5705/admin/view/drpy.js"},
 {"key": "dr_鸭奈飞","name": "鸭奈飞(drpy)","type": 3,"api": "http://123.249.89.220:5705/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "http://123.249.89.220:5705/admin/view/鸭奈飞.js"},
 {"key": "dr_追剧喵","name": "追剧喵(drpy)","type": 3,"api": "http://123.249.89.220:5705/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "http://123.249.89.220:5705/admin/view/追剧喵.js"},
 {"key": "dr_蓝莓影视","name": "蓝莓影视(drpy)","type": 3,"api": "http://123.249.89.220:5705/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "http://123.249.89.220:5705/admin/view/蓝莓影视.js"},
@@ -134,7 +135,6 @@
 {"key": "dr_vip影院","name": "vip影院(drpy)","type": 3,"api": "http://123.249.89.220:5705/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "http://123.249.89.220:5705/admin/view/vip影院.js"},
 {"key": "dr_LIBVIO","name": "LIBVIO(drpy)","type": 3,"api": "http://123.249.89.220:5705/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "http://123.249.89.220:5705/admin/view/LIBVIO.js"},
 {"key": "dr_l0l","name": "l0l(drpy)","type": 3,"api": "http://123.249.89.220:5705/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "http://123.249.89.220:5705/admin/view/l0l.js"},
-{"key": "dr_drpy","name": "drpy(drpy)","type": 3,"api": "http://123.249.89.220:5705/libs/drpy.min.js","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://123.249.89.220:5705/admin/view/drpy.js"},
 {"key": "js_drpy","name": "drpy(道长)","type": 1,"api": "http://123.249.89.220:5705/vod?pwd=feng80521&rule=drpy","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "dr_cokemv","name": "cokemv(drpy)","type": 3,"api": "http://123.249.89.220:5705/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "http://123.249.89.220:5705/admin/view/cokemv.js"},
 {"key": "dr_AnFuns","name": "AnFuns(drpy)","type": 3,"api": "http://123.249.89.220:5705/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "http://123.249.89.220:5705/admin/view/AnFuns.js"},
